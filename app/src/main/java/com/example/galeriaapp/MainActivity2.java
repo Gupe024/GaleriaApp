@@ -27,7 +27,7 @@ public class MainActivity2 extends AppCompatActivity {
         btnAnterior = findViewById(R.id.anterior);
         btnSiguiente = findViewById(R.id.siguiente);
 
-        imageArray = new int[] {R.drawable.alguien_esta_mintiendo, R.drawable.archivo81, R.drawable.athena};
+        imageArray = new int[] {R.drawable.tsubasa_reservoir_chronicle, R.drawable.archivo81, R.drawable.athena, R.drawable.dark, R.drawable.sabes_quien_es, R.drawable.una_familia_normal, R.drawable.biohackers, R.drawable.ecos, R.drawable.clickbait, R.drawable.escena_del_crimen};
 
         imageView.setImageResource(imageArray[currentPosition]);
 
